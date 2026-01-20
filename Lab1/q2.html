@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2 - Hyperlinks</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        a {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Hyperlinks Demonstration</h1>
+
+<!-- Link opening in the same tab (default behavior) -->
+<h2>Link Opening in Same Tab</h2>
+<p>
+    <a href="https://www.example.com">Visit Example.com (opens in same tab)</a>
+</p>
+<p>
+    This link uses the default behavior of the &lt;a&gt; tag without any target attribute.
+</p>
+
+<!-- Link opening in a new tab using target="_blank" -->
+<h2>Link Opening in New Tab</h2>
+<p>
+    <a href="https://www.google.com" target="_blank">Visit Google (opens in new tab)</a>
+</p>
+<p>
+    This link uses <code>target="_blank"</code> to open in a new tab/window.
+</p>
+
+<!-- Additional link examples -->
+<h2>Other Types of Links</h2>
+
+<h3>Email Link</h3>
+<p>
+    <a href="mailto:contact@example.com">Send Email to contact@example.com</a>
+</p>
+
+<h3>Phone Link</h3>
+<p>
+    <a href="tel:+9779800000000">Call +977-9800000000</a>
+</p>
+
+<h3>Internal Page Link (Anchor)</h3>
+<p>
+    <a href="#bottom-section">Jump to Bottom Section</a>
+</p>
+
+<br><br><br><br><br><br><br><br><br><br>
+
+<div id="bottom-section">
+    <h2>Bottom Section</h2>
+    <p>You scrolled here using an internal anchor link!</p>
+    <p><a href="#top">Back to Top</a></p>
+</div>
+
+</body>
+</html>
